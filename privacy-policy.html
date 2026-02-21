@@ -7,79 +7,119 @@
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; }
         h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
-        h2 { color: #2980b9; margin-top: 30px; }
-        h3 { color: #34495e; }
+        h2 { color: #2980b9; margin-top: 30px; border-left: 4px solid #2980b9; padding-left: 10px; }
+        h3 { color: #34495e; margin-top: 20px; }
         .last-updated { font-style: italic; color: #7f8c8d; margin-bottom: 30px; }
-        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.9em; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.95em; }
         th, td { border: 1px solid #dfe6e9; padding: 12px; text-align: left; }
         th { background-color: #f8f9fa; color: #2c3e50; }
         .important-box { background-color: #f0f7ff; border-left: 5px solid #3498db; padding: 15px; margin: 20px 0; }
+        .no-collect { background-color: #fff5f5; border-left: 5px solid #e74c3c; padding: 15px; margin: 20px 0; }
         footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee; text-align: center; font-size: 0.9em; }
         a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
 
-    <h1>Privacy Policy and Terms of Service</h1>
+    <h1>Privacy Policy and Terms of Service for Expense Note</h1>
     <p class="last-updated">Last Updated: February 9, 2026</p>
 
-    <p>This Privacy Policy explains how <strong>Expense Note</strong> collects, uses, and discloses information when you use our mobile application. We take your privacy seriously. Your personal expense notes and entries are stored securely on your device or in your personal cloud storage (e.g., Google Drive) and are <strong>NOT</strong> accessed, collected, or stored by the developer.</p>
-
+    <p>This Privacy Policy explains how <strong>Expense Note</strong> collects, uses, and discloses information when you use our mobile application.</p>
+    
     <div class="important-box">
-        <strong>Note for Google Drive Users:</strong> Our app uses the <code>drive.file</code> scope to allow you to back up your data. We only access the specific backup files created by this app and cannot see or modify any other files in your Google Drive.
+        <strong>Google Drive & Data Storage:</strong> We take your privacy seriously. Your personal expense notes and entries are stored securely on your device or in your personal cloud storage (e.g., Google Drive) and are <strong>NOT</strong> accessed, collected, or stored by us.
     </div>
 
     <h2>1. Data Collected By The App Developer</h2>
-    <p>The app collects the absolute minimum information necessary for core features (sign-in and subscriptions) to function.</p>
+    <p>Your application is designed to collect the absolute minimum amount of information necessary for the core features (sign-in and subscriptions) to function.</p>
 
     <table>
         <thead>
             <tr>
                 <th>Data Type</th>
                 <th>How Collected</th>
-                <th>Purpose</th>
+                <th>Purpose (Why Collected)</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Google User ID</td>
-                <td>Automatically via Google Sign-In</td>
-                <td>To create a secure account and link your subscription history.</td>
+                <td><strong>Google User ID</strong><br>(Unique Identifier)</td>
+                <td>Automatically upon successful use of "Sign in with Google."</td>
+                <td>To create a unique and secure account for you within the App and to link your subscription status and purchase history to your account.</td>
             </tr>
             <tr>
-                <td>Google Account Email</td>
-                <td>Automatically via Google Sign-In</td>
-                <td>To verify identity, authenticate subscriptions, and send account-related alerts.</td>
+                <td><strong>Google Account Email</strong><br>(Used for Sign-In)</td>
+                <td>Automatically upon successful use of "Sign in with Google."</td>
+                <td>To verify your identity, send necessary account-related messages (like subscription renewal confirmations), and to authenticate your subscription.</td>
             </tr>
             <tr>
-                <td>Purchase History</td>
-                <td>Processed via Google Play</td>
-                <td>To verify subscription status and manage renewals or cancellations.</td>
+                <td><strong>Purchase History</strong></td>
+                <td>Processed via the app store payment system (Google Play).</td>
+                <td>To verify your current subscription status, provide the service you paid for, and manage renewals or cancellations.</td>
             </tr>
         </tbody>
     </table>
 
-    <h2>2. Information NOT Collected or Stored</h2>
-    <ul>
-        <li><strong>User-Generated Content:</strong> Your daily expense notes, entry details, and categories remain on your device or your personal Google Drive.</li>
-        <li><strong>Sensitive Financial Data:</strong> We do not receive or store your credit card or full payment information; this is handled exclusively by Google Play.</li>
-    </ul>
+    <h2>2. Information NOT Collected or Stored By the App</h2>
+    <div class="no-collect">
+        <p>Crucially, we do <strong>NOT</strong> collect, store, or access the following data:</p>
+        <ul>
+            <li><strong>User-Generated Content:</strong> Your daily expense notes, entry details, category names, or any data entered into the note-taking feature. This data remains on your device or in your personal Google account storage.</li>
+            <li><strong>Sensitive Personal Information:</strong> Financial details (beyond payment verification handled by Google Play), health data, precise location data, or contact information (other than your Sign-In email).</li>
+        </ul>
+    </div>
 
-    <h2>3. Third-Party Services</h2>
+    <h2>3. Data Collected by Third-Party Services</h2>
+    <p>We use third-party services that may collect certain data from your device to provide their services, such as advertising and security. These parties are subject to their own privacy policies.</p>
+
     <h3>A. Google AdMob (Advertising)</h3>
-    <p>We use AdMob to serve ads. AdMob may collect Device Identifiers, User Interactions, and Diagnostic info to maintain ad performance and fraud prevention. For more info, see <a href="https://policies.google.com/technologies/partner-sites" target="_blank">How Google uses information</a>.</p>
+    <p>The App uses Google AdMob to display advertisements and generate revenue. AdMob automatically collects data to serve personalized and non-personalized ads, and for advertising analytics, and fraud prevention.</p>
     
+    <table>
+        <thead>
+            <tr>
+                <th>Data Type Collected by AdMob</th>
+                <th>Purpose (Why Collected by AdMob)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Device/Account Identifiers (e.g., Advertising ID, IP address)</td>
+                <td>For advertising (personalized/non-personalized), analytics, and fraud detection.</td>
+            </tr>
+            <tr>
+                <td>User Product Interactions</td>
+                <td>To measure the performance of ad campaigns and improve ad delivery.</td>
+            </tr>
+            <tr>
+                <td>Diagnostic Information (e.g., crash logs)</td>
+                <td>To maintain the stability and performance of the advertising SDK.</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><a href="https://policies.google.com/technologies/partner-sites" target="_blank">How Google uses information from sites or apps that use our services</a></p>
+
     <h3>B. Google Play Billing</h3>
-    <p>All purchases are processed through Google Play's secure systems.</p>
+    <p>The Google Play Store processes all subscription purchases. We rely on Google Play's service to verify your subscription status. Google processes your payment information as per their own Google Payments Privacy Policy. We do not receive or store your credit card information.</p>
 
     <h2>4. Data Security</h2>
-    <p>We implement commercially reasonable security measures to protect your Google User ID and email. However, no method of electronic storage is 100% secure.</p>
+    <p>We implement commercially reasonable technical and administrative security measures to protect the personal information we collect (mainly your Google User ID and email) from unauthorized access, disclosure, alteration, or destruction. However, no method of transmission over the Internet or method of electronic storage is 100% secure.</p>
 
-    <h2>5. Disclaimer and Limitation of Liability</h2>
-    <p><strong>"As-Is" Basis:</strong> The App is provided without warranties of any kind. You are solely responsible for maintaining regular backups. The Developer is not responsible for any loss or corruption of your data.</p>
+    <h2>5. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date at the top.</p>
 
     <h2>6. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us:</p>
     <p>By Email: <a href="mailto:vvrandroid@gmail.com">vvrandroid@gmail.com</a></p>
+
+    <h2>7. Disclaimer and Limitation of Liability</h2>
+    <ul>
+        <li><strong>"As-Is" Basis:</strong> The App is provided on an "AS IS" and "AS AVAILABLE" basis. The Developer makes no warranties, expressed or implied, regarding the reliability or availability of the App or its features.</li>
+        <li><strong>User Responsibility for Data:</strong> You acknowledge that your expense notes and entries are stored locally on your device or your personal Google Drive. You are solely responsible for maintaining regular backups of your data. The Developer is not responsible for any loss, corruption, or recovery of your data under any circumstances.</li>
+        <li><strong>Updates and Changes:</strong> We reserve the right to update, modify, or discontinue features of the App at any time. Software updates may occasionally result in unintended data loss. By continuing to use the App, you accept these risks.</li>
+        <li><strong>Limitation of Liability:</strong> To the maximum extent permitted by law, the Developer shall not be liable for any damages arising from the use of the App, even if such issues arise from unintentional errors or bugs.</li>
+    </ul>
 
     <footer>
         <p>&copy; 2026 VVRAndroid | <a href="index.html">Back to Home</a></p>
