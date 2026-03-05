@@ -5,33 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - Deep Battery</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
-        .nav-header { display: flex; justify-content: space-between; align-items: center; padding: 15px 0; border-bottom: 1px solid #eee; margin-bottom: 30px; }
-        .home-link { text-decoration: none; color: #3498db; font-weight: bold; }
-        h1 { color: #2c3e50; }
-        h2 { border-bottom: 1px solid #eee; padding-bottom: 5px; margin-top: 30px; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { color: #27ae60; margin-top: 30px; border-left: 4px solid #27ae60; padding-left: 10px; }
+        h3 { color: #34495e; margin-top: 20px; }
+        .last-updated { font-style: italic; color: #7f8c8d; margin-bottom: 30px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.95em; }
+        th, td { border: 1px solid #dfe6e9; padding: 12px; text-align: left; }
+        th { background-color: #f8f9fa; color: #2c3e50; }
+        .important-box { background-color: #f0fff4; border-left: 5px solid #27ae60; padding: 15px; margin: 20px 0; }
+        .no-collect { background-color: #fff5f5; border-left: 5px solid #e74c3c; padding: 15px; margin: 20px 0; }
+        footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee; text-align: center; font-size: 0.9em; }
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .nav-header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 20px; }
     </style>
 </head>
 <body>
 
-    <header class="nav-header">
-        <a href="../index.html" class="home-link">← Back to Home</a>
-        <span style="color: #95a5a6; font-size: 0.9em;">Deep Battery Support</span>
-    </header>
+    <div class="nav-header">
+        <a href="../index.html" style="font-weight: bold;">← Back to Home</a>
+        <span style="color: #95a5a6;">Deep Battery Support</span>
+    </div>
 
-    <h1>Privacy Policy</h1>
-    <p>Last updated: March 4, 2026</p>
+    <h1>Privacy Policy and Terms of Service for Deep Battery</h1>
+    <p class="last-updated">Last Updated: March 4, 2026</p>
 
-    <h2>1. Data Collection</h2>
-    <p><strong>Deep Battery</strong> tracks battery health data, voltage, temperature, and usage patterns. If you use Google Sign-In, we collect your email address and basic profile information to sync your data.</p>
+    <p>This Privacy Policy explains how <strong>Deep Battery</strong> collects, uses, and discloses information when you use our mobile application to monitor battery health and usage.</p>
+    
+    <div class="important-box">
+        <strong>Google Drive & Battery Data:</strong> We prioritize your data ownership. Detailed battery logs (voltage, health, temperature) are stored locally on your device or in your personal <strong>Google Drive</strong>. We do <strong>NOT</strong> host your battery history on our own servers.
+    </div>
 
-    <h2>2. Third-Party SDKs</h2>
-    <p>We use <strong>AdMob</strong> for ads and <strong>RevenueCat</strong> for managing in-app purchases. These services may collect device identifiers and purchase history.</p>
+    <h2>1. Data Collected By The App Developer</h2>
+    <p>We collect the minimum data required to manage your account, verify premium subscriptions, and sync settings across devices.</p>
 
-    <h2>3. Your Rights</h2>
-    <p>You can request account deletion at any time via our <a href="delete-account.html">Deletion Portal</a>.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Data Type</th>
+                <th>Source/SDK</th>
+                <th>Purpose</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Google Account Email & ID</strong></td>
+                <td>Google Sign-In</td>
+                <td>To create your account, sync your preferences, and provide access to the <a href="delete-account.html">Deletion Portal</a>.</td>
+            </tr>
+            <tr>
+                <td><strong>Purchase History</strong></td>
+                <td>RevenueCat & Google Play</td>
+                <td>To validate your subscription status, unlock Pro features, and manage billing history.</td>
+            </tr>
+            <tr>
+                <td><strong>Device Metadata</strong></td>
+                <td>System API</td>
+                <td>Basic info (model, OS version) to ensure the battery monitoring algorithms are calibrated correctly for your hardware.</td>
+            </tr>
+        </tbody>
+    </table>
 
-    <p>Contact: <strong>vvrandroid@gmail.com</strong></p>
+    <h2>2. Information NOT Collected or Stored By the Developer</h2>
+    <div class="no-collect">
+        <p>To ensure your privacy, we do <strong>NOT</strong> collect or have access to:</p>
+        <ul>
+            <li><strong>Detailed Usage Logs:</strong> Specific timestamps of when you use certain apps or your exact charging habits are stored only in your private database (Local or Google Drive).</li>
+            <li><strong>Location Data:</strong> We do not track where you charge your device.</li>
+            <li><strong>Personal Files:</strong> Aside from the specific folder created for backups on Google Drive, we cannot see or access any other files in your cloud storage.</li>
+        </ul>
+    </div>
+
+    <h2>3. Third-Party Services</h2>
+    <p>We use industry-standard partners to provide advertising and subscription management. These partners collect data according to their own policies.</p>
+
+    <h3>A. Google AdMob (Advertising)</h3>
+    <p>AdMob may collect device identifiers (like Advertising ID) and IP addresses to serve relevant ads and prevent click fraud. You can reset your Advertising ID in your Android system settings.</p>
+    
+    <h3>B. RevenueCat (Subscription Management)</h3>
+    <p>We use RevenueCat to process and track in-app purchases reliably. RevenueCat receives an anonymous identifier and your purchase history to ensure your "Pro" features work across all your devices.</p>
+
+    <h3>C. Google Play Billing</h3>
+    <p>All financial transactions are handled by Google. We never see or store your credit card or bank details.</p>
+
+    <h2>4. Data Rights and Deletion</h2>
+    <p>You have full control over your data. You may:</p>
+    <ul>
+        <li>Disconnect your Google Drive at any time within the app settings.</li>
+        <li>Request a permanent deletion of your account and associated sign-in metadata via our <strong><a href="delete-account.html">Account Deletion Portal</a></strong>.</li>
+    </ul>
+
+    <h2>5. Disclaimer and Limitation of Liability</h2>
+    <ul>
+        <li><strong>Informational Purposes:</strong> Deep Battery provides estimates of battery health, voltage, and temperature based on system APIs. While we strive for accuracy, these are estimates and should not be used for critical hardware diagnostics.</li>
+        <li><strong>No Warranty:</strong> The App is provided "AS IS." The Developer is not responsible for hardware wear, battery degradation, or any data loss that may occur during software updates.</li>
+        <li><strong>User Responsibility:</strong> If you choose to store logs on Google Drive, you are responsible for the security of your Google account.</li>
+    </ul>
+
+    <h2>6. Contact Us</h2>
+    <p>For support or privacy inquiries: <a href="mailto:vvrandroid@gmail.com">vvrandroid@gmail.com</a></p>
+
+    <footer>
+        <p>&copy; 2026 VVRAndroid | <a href="../index.html">Home</a></p>
+    </footer>
 
 </body>
 </html>
